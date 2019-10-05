@@ -1,3 +1,7 @@
+<?php
+    include "part9.php";
+?>
+
 <!DOCTYPE html>
     <head>
         <title>Kristy's Portfolio & Blog | 19.10</title>

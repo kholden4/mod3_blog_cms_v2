@@ -1,20 +1,40 @@
+
 <?php
     ini_set('display_errors', 1); // Show errors for debugging
 ?>
 
- 
 <?php
-// Function Example
-    function getIsSettled($age, $married) {          // Function Name
+    $firstName = "Jane";                     // String type variable
+    $lastName = "Doe";                       // String type variable
+    $age = 35;                               // Integer type variable
+    $married = true;                         // Boolean type variable
+    $childrenNames = array("Alice", "Bob");
+    $fullName = $firstName . " " . $lastName;
+    $dogYears = $age/7;
+    $isAdult = $dogYears > 4;
+    $isSettled = $isAdult and $married;
+?>
+
+<?php
+    function getFullName($firstName, $lastName) {     //Function name
+        return  $firstName . " " . $lastName;         // Concatenation Operator & Returned value
+    }
+
+    $fullName = getFullName($firstName, $lastName);   // Using variables
+    $fullName = getFullName("Alice", "Doe");
+ ?>   
+
+<?php 
+    function getIsSettled($age, $married) {
         $dogYears = $age/7;                          // Arithmetic Operator
         $isAdult = $dogYears > 4;                    // Comparison operator
         $isSettled = $isAdult and $married;          // Integer type variable
-        return $isSettled;                           // Return Value 
+        return $isSettled;
     }
-    
-// $isSettled = getIsSettled($age, $married);       // Using variables
-// $isSettled = getIsSettled(5, $false);            // Using Values
-?>  
+
+$isSettled = getIsSettled($age, $married);
+$isSettled = getIsSettled(5, false);
+?>
 
 <?php
     if ($isSettled) {                               // Conditional Statements
@@ -22,7 +42,9 @@
     } else {
         echo $fullName . " is not settled.";
     }
+?>
 
+<?php
     foreach($childrenNames as $childName) {         // Loops
         echo "<li>" . $childName . "</li>";
     }
