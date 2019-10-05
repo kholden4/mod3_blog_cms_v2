@@ -41,6 +41,6 @@ $isSettled = getIsSettled(5, false);
 
 <?php
     foreach($childrenNames as $childName) {         // Loops
-        echo "<li>" . $childName . "</li>";
+        echo "Childrens Names (Function #3)" . "<li>" . $childName . "</li>";
     }
 ?>
