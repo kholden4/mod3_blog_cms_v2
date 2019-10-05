@@ -2,7 +2,7 @@
     ini_set('display_errors', 1); // Show errors for debugging
 ?>
 
-// Part 9.1 Variables
+// Part "9.1" Variables
 <?php
     $firstName = "Jane";                     // String type (text characters)
     $lastName = "Doe";                       // String type (text characters)
@@ -44,7 +44,7 @@
 // Part 9.5 Echo 
 
 echo $fullName
-echo "<h1>Hello Worlsd!</h1>"                        // String example
+echo "<h1>Hello World!</h1>"                        // String example
 
 <?php
     if ($isSettled) {                               // 9.6 Conditional Statements
