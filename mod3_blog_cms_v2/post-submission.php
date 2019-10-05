@@ -1,6 +1,5 @@
 <?php
     include "header.php";
-    include "footer.php";
 ?><!--PHP content always loads before the rest of web content--> 
 
     <body>
@@ -16,4 +15,8 @@
 
         </main><!--close for main-->
     </body><!--close for body-->
+
+<?php
+    include "footer.php";
+?>
 </html>
