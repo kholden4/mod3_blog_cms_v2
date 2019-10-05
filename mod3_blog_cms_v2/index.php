@@ -1,20 +1,13 @@
-<!DOCTYPE html>
-    <head>
-        <title>Kristy's Portfolio & Blog | 19.10</title>
-        <nav>
-          <ul>
-            <li><a href="index.php">HOMEPAGE</a></li>
-            <li><a href="post-submission.php">CREATE NEW POST</a></li>
-          </ul>
-        </nav><!--close for navigation-->
-    </head><!--close for head-->
+<?php
+    include "header.php";
+?>
 
     <body>
         <main>
-            <header>
+            <head>
                 <h1>Kristy's Portfolio & Blog</h1>
                 <h2>Data Coordinator by Day | UX Design Student by Night</h2>
-            </header><!--close for header-->
+            </head><!--close for head-->
 
             <ul>
                 <li><a href="post.php">My First Entry</a></li>

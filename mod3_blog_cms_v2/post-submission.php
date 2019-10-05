@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <head>
+    <header>
         <title>Kristy's Portfolio & Blog | 19.10</title>
         <nav>
           <ul>
@@ -7,14 +7,14 @@
             <li><a href="post-submission.php">CREATE NEW POST</a></li>
           </ul>
         </nav><!--close for navigation-->
-    </head><!--close for head-->
+    </header><!--close for header-->
 
     <body>
         <main>
-            <header>
+            <head>
                 <h1>Kristy's Portfolio & Blog</h1>
                 <h2>Data Coordinator by Day | UX Design Student by Night</h2>
-            </header><!--close for header-->
+            </head><!--close for head-->
 
             <form action="/action_page.php" method="get">
                 Title: <input type="text" name="postTitle"><br>
