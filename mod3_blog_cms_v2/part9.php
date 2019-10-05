@@ -22,6 +22,7 @@
 
     $fullName = getFullName($firstName, $lastName);   // Using variables
     $fullName = getFullName("Alice", "Doe");
+        echo $fullName . " ";
  ?>   
 
 <?php 
