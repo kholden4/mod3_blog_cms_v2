@@ -27,9 +27,6 @@
 
 <?php 
     function getIsSettled($age, $married) {
-        $dogYears = $age/7;                          // Arithmetic Operator
-        $isAdult = $dogYears > 4;                    // Comparison operator
-        $isSettled = $isAdult and $married;          // Integer type variable
         return $isSettled;
     }
 
