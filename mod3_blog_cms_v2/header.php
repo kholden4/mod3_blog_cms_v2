@@ -1,6 +1,3 @@
-<?php
-    include "part9.php";
-?>
 
 <!DOCTYPE html>
     <head>
