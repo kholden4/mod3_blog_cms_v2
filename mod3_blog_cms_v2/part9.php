@@ -2,7 +2,7 @@
     ini_set('display_errors', 1); // Show errors for debugging
 ?>
 
-// Variables
+// VariablesExample 
 <?php
     $firstName = "Jane";                     // String type (text characters)
     $lastName = "Doe";                       // String type (text characters)
@@ -12,7 +12,7 @@
 ?>
 
 
-// Functions
+// FunctionExample
  <?php
     function getFullName($firstName, $lastName) {     // Function name
         return  $firstName . " " . $lastName;         // Concatenation Operator & Returned value
@@ -35,11 +35,7 @@
 // $isSettled = getIsSettled($age, $married);       // Using variables
 // $isSettled = getIsSettled(5, $false);            // Using Values
 ?>
-
-// Echo 
-
-// echo $fullName
-// echo "<h1>Hello World!</h1>"                        // String example
+// EchoExample   
 
 <?php
     if ($isSettled) {                               // Conditional Statements
