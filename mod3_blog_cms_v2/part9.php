@@ -30,17 +30,14 @@
         return $isSettled;
     }
 
-$isSettled = getIsSettled($age, $married);
-$isSettled = getIsSettled(5, false);
-    if ($isSettled) {                               // Conditional Statements
-        echo $fullName . " is settled.";
-    } else {
-        echo $fullName . " is not settled.";
-    }
-?>
-
-<?php
-    foreach($childrenNames as $childName) {         // Loops
-        echo "<li>" "Children Names (Fucntion #3)" . $childName . "</li>";
-    }
+    $isSettled = getIsSettled($age, $married);
+    $isSettled = getIsSettled(5, false);
+        if ($isSettled) {                               // Conditional Statements
+         echo $fullName . " is settled.";
+        } else {
+         echo $fullName . " is not settled.";
+        }
+        foreach($childrenNames as $childName) {         // Loops
+            echo "<li>" . $childName . "</li>";
+        }
 ?>
