@@ -27,7 +27,7 @@
 
 <?php 
     function getIsSettled($age, $married) {
-        return $isSettled;
+        return $isSettled . "".;
     }
 
     $isSettled = getIsSettled($age, $married);
