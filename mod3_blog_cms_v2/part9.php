@@ -1,3 +1,7 @@
+<?php
+    include "header.php";
+    include "footer";
+?><!--PHP content always loads before the rest of web content--> 
 
 <?php
     ini_set('display_errors', 1); // Show errors for debugging
