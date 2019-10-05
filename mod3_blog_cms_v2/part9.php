@@ -22,7 +22,7 @@
 
     $fullName = getFullName($firstName, $lastName);   // Using variables
     $fullName = getFullName("Alice", "Doe");
-        echo $fullName . " ";
+        echo $fullName . " (Function #1). ";
  ?>   
 
 <?php 
@@ -35,6 +35,7 @@
 
 $isSettled = getIsSettled($age, $married);
 $isSettled = getIsSettled(5, false);
+    echo $isSettled . " (Function #2). ";
 ?>
 
 <?php
