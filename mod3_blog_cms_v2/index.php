@@ -1,6 +1,5 @@
 <?php
     include "header.php";
-    include "part9.php";
     include "footer";
 ?><!--PHP content always loads before the rest of web content--> 
 
