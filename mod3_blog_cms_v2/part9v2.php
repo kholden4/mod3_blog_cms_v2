@@ -44,3 +44,7 @@
             echo "<li>" . $childName . "</li>";
         }
 ?>
+
+<?php
+    include "footer.php";
+?>
