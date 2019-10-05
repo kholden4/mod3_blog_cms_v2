@@ -27,15 +27,11 @@
 
 <?php 
     function getIsSettled($age, $married) {
-        return $isSettled . " " .;
+        return $isSettled;
     }
 
 $isSettled = getIsSettled($age, $married);
 $isSettled = getIsSettled(5, false);
-    echo $isSettled . " (Function #2). ";
-?>
-
-<?php
     if ($isSettled) {                               // Conditional Statements
         echo $fullName . " is settled.";
     } else {
