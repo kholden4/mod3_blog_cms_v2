@@ -2,7 +2,7 @@
     ini_set('display_errors', 1); // Show errors for debugging
 ?>
 
-// Part "9.1" Variables
+// Part 9.1 Variables
 <?php
     $firstName = "Jane";                     // String type (text characters)
     $lastName = "Doe";                       // String type (text characters)
@@ -11,13 +11,8 @@
     $childrenNames = array("Alice", "Bob");  // Array type (use of values)
 ?>
 
- // Part 9.3 Operators 
-        // Arithmetic Operators: + - *   
-        // Concatenation Operators: joins two stings together ex. "Hello" and "World"
-        // Logic Operators: used to perform logical operations on booleans ex. and, or.
-        // Comparison Operators: compares two values or variables, always result in a boolean (T/F). To see equal to use ==. To see less than use <.
 
- // Part 9.4 Functions
+ // Functions 
  <?php
     function getFullName($firstName, $lastName) {     // Function name
         return  $firstName . " " . $lastName;         // Concatenation Operator & Returned value
@@ -29,7 +24,7 @@
 ?>
  
 <?php
-// New Function Example:
+// New Function Example
     function getIsSettled($age, $married) {          // Function Name
         $dogYears = $age/7;                          // Arithmetic Operator
         $isAdult = $dogYears > 4;                    // Comparison operator
@@ -41,19 +36,19 @@
     $isSettled = getIsSettled(5, $false);            // Using Values
 ?>
 
-// Part 9.5 Echo 
+// Echo 
 
-echo $fullName
-echo "<h1>Hello World!</h1>"                        // String example
+// echo $fullName
+// echo "<h1>Hello World!</h1>"                        // String example
 
 <?php
-    if ($isSettled) {                               // 9.6 Conditional Statements
+    if ($isSettled) {                               // Conditional Statements
         echo $fullName . " is settled.";
     } else {
         echo $fullName . " is not settled.";
     }
 
-    foreach($childrenNames as $childName) {         // 9.7 Loops
+    foreach($childrenNames as $childName) {         // Loops
         echo "<li>" . $childName . "</li>";
     }
 ?>
