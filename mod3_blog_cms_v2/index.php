@@ -6,6 +6,7 @@
     <body>
 
         <main>
+            <h3>Previous Posts</h3>
             <ul>
                 <li><a href="post.php">My First Entry</a></li>
             </ul>
