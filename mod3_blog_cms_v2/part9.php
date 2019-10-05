@@ -2,7 +2,7 @@
     ini_set('display_errors', 1); // Show errors for debugging
 ?>
 
-// Part 9.1 Variables
+// Variables
 <?php
     $firstName = "Jane";                     // String type (text characters)
     $lastName = "Doe";                       // String type (text characters)
@@ -12,7 +12,7 @@
 ?>
 
 
- // Functions 
+// Functions
  <?php
     function getFullName($firstName, $lastName) {     // Function name
         return  $firstName . " " . $lastName;         // Concatenation Operator & Returned value
@@ -32,8 +32,8 @@
         return $isSettled;                           // Return Value 
     }
     
-    $isSettled = getIsSettled($age, $married);       // Using variables
-    $isSettled = getIsSettled(5, $false);            // Using Values
+// $isSettled = getIsSettled($age, $married);       // Using variables
+// $isSettled = getIsSettled(5, $false);            // Using Values
 ?>
 
 // Echo 
